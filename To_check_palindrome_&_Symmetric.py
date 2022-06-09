@@ -15,7 +15,7 @@ def isSymmetric(str):
         mid = n//2
         
     start1 = 0
-    start2 = 1
+    start2 = mid
     counter = 1
     while(start1 < mid and start2 < n):
         if str[start1] == str[start2]:
