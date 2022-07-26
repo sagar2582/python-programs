@@ -10,5 +10,5 @@ def lcm(a,b):
     return product // hcf
 
 
-n,m = map(int,input.split())
+n,m = map(int,input().split())
 print("gcd = {} & lcm = {}".format(gcd(n,m), lcm(n,m)))
